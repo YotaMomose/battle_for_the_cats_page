@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>にゃんこホイホイ! - お問い合わせ</title>
+<meta name="description" content="にゃんこホイホイ!公式サイト。お問い合わせ、プライバシーポリシー、利用規約はこちら。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <img class="logo" src="assets/title.png" alt="にゃんこホイホイ! ロゴ">
+  <nav class="site-nav">
+    <a href="index.html" class="active">ホーム / お問い合わせ</a>
+    <a href="privacy-policy.html">プライバシーポリシー</a>
+    <a href="terms.html">利用規約</a>
+  </nav>
+</header>
+
+<main>
+  <div class="card">
+    <div class="hero">
+      <div class="catrow">
+        <img src="assets/tyatoranekopng.png" alt="">
+        <img src="assets/kuroneko.png" alt="">
+        <img src="assets/sironeko.png" alt="">
+      </div>
+      <h1 class="page-title" style="justify-content:center;">お問い合わせ</h1>
+      <p class="lead">「にゃんこホイホイ!」に関するご質問・不具合報告・ご意見は、下記までお気軽にご連絡ください。</p>
+    </div>
+
+    <h2>お問い合わせ先</h2>
+    <div class="contact-box">
+      <p style="margin:0;">
+        📧 メール：<a href="mailto:your-email@example.com">your-email@example.com</a><br>
+        <span style="font-size:0.85rem; color:var(--text-soft);">※上記アドレスは仮のものです。実際の連絡先メールアドレスに差し替えてください。</span>
+      </p>
+    </div>
+    <p style="font-size:0.88rem; color:var(--text-soft);">
+      通常、2〜5営業日以内にご返信いたします。不具合報告の際は、お使いの端末機種・OSバージョン・発生状況をあわせてお知らせいただけますとスムーズです。
+    </p>
+
+    <h2>その他のページ</h2>
+    <div class="link-cards">
+      <a href="privacy-policy.html">🔒 プライバシーポリシー</a>
+      <a href="terms.html">📄 利用規約</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> にゃんこホイホイ! All rights reserved.
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
